@@ -126,7 +126,7 @@ body {
 
 article {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   padding: 15px;
 }
 
@@ -210,6 +210,7 @@ footer {
     background-color: rgba(46, 51, 68, 1);
     float: left;
     /*padding: 7.5% 5% 0% 5%;*/
+    font-size: 1em;
     padding: 0;
     width: 100%;
   }
@@ -245,18 +246,19 @@ footer {
   }
 
   #postagem1 img {
-    width: 100%;
+    
+    width: 85%;
   }
 
   #postagem2 img {
-    width: 100%;
+    width: 85%;
   }
 
   #corpo {
-    font-size: 1.2em;
-    float: left;
+    font-size: 1em;
+    /*float: left;*/
     padding: 0;
-    width: 100%;
+    width: 95%;
   }
   .hh2{
     padding: 30px;
@@ -272,12 +274,12 @@ footer {
   .cabecalho {
     background-color: rgba(46, 51, 68, 1);
     float: left;
-    font-size: 1.5em;
+    font-size: 0.9em;
     padding: 0;
     width: 100%;
   }
   #corpo {
-    font-size: 1.5em;
+    font-size: 0.9em;
     float: left;
     padding: 0;
     width: 100%;
@@ -305,9 +307,8 @@ footer {
     box-shadow: 0px 8px 16px rgb(0, 0, 0, 0.2);
   }
   footer {
-    font-size: 1.5em;
+    font-size: 0.9em;
     clear: both;
-    border: 2px solid rebeccapurple;
     padding: 2%;
     text-align: center;
     background-color: rgba(46, 51, 68, 1);
@@ -316,12 +317,13 @@ footer {
   }
 
 .hh2{
-  padding: 30px;
+  padding: 10px;
+  margin-top: 15%;
   text-align: center;
 }
 
   #tabela {
-    margin-top: 90%;
+    margin-top: 70%;
     display: block;
     position: relative;
     width: 100%;
